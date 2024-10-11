@@ -40,3 +40,8 @@ License: [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
 ### This code is used on mysql 5.7 and with minor modification on version 8.0
 
+## Updates : 10-10-2024 Alex Datsko
+
+Modified slightly to run in my environment with Mariadb, added multi=True on cursor execute 
+statements, also added some code for if you already downloaded and decompressed the json 
+files and put them where they'd go, in jsonfiles
